@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7A30A4891C85FCDC00D69266 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A30A4881C85FCDC00D69266 /* AppDelegate.swift */; };
+		7A30A48B1C85FCDC00D69266 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A30A48A1C85FCDC00D69266 /* ViewController.swift */; };
+		7A30A48E1C85FCDC00D69266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A48C1C85FCDC00D69266 /* Main.storyboard */; };
+		7A30A4901C85FCDC00D69266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A48F1C85FCDC00D69266 /* Assets.xcassets */; };
+		7A30A4931C85FCDC00D69266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A4911C85FCDC00D69266 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7A30A4851C85FCDC00D69266 /* VoiceTweak.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VoiceTweak.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7A30A4881C85FCDC00D69266 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7A30A48A1C85FCDC00D69266 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7A30A48D1C85FCDC00D69266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7A30A48F1C85FCDC00D69266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7A30A4921C85FCDC00D69266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7A30A4941C85FCDC00D69266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7A30A4821C85FCDC00D69266 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7A30A47C1C85FCDC00D69266 = {
+			isa = PBXGroup;
+			children = (
+				7A30A4871C85FCDC00D69266 /* VoiceTweak */,
+				7A30A4861C85FCDC00D69266 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7A30A4861C85FCDC00D69266 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7A30A4851C85FCDC00D69266 /* VoiceTweak.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A30A4871C85FCDC00D69266 /* VoiceTweak */ = {
+			isa = PBXGroup;
+			children = (
+				7A30A4881C85FCDC00D69266 /* AppDelegate.swift */,
+				7A30A48A1C85FCDC00D69266 /* ViewController.swift */,
+				7A30A48C1C85FCDC00D69266 /* Main.storyboard */,
+				7A30A48F1C85FCDC00D69266 /* Assets.xcassets */,
+				7A30A4911C85FCDC00D69266 /* LaunchScreen.storyboard */,
+				7A30A4941C85FCDC00D69266 /* Info.plist */,
+			);
+			path = VoiceTweak;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7A30A4841C85FCDC00D69266 /* VoiceTweak */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7A30A4971C85FCDC00D69266 /* Build configuration list for PBXNativeTarget "VoiceTweak" */;
+			buildPhases = (
+				7A30A4811C85FCDC00D69266 /* Sources */,
+				7A30A4821C85FCDC00D69266 /* Frameworks */,
+				7A30A4831C85FCDC00D69266 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VoiceTweak;
+			productName = VoiceTweak;
+			productReference = 7A30A4851C85FCDC00D69266 /* VoiceTweak.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7A30A47D1C85FCDC00D69266 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Bruce Burgess";
+				TargetAttributes = {
+					7A30A4841C85FCDC00D69266 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 7A30A4801C85FCDC00D69266 /* Build configuration list for PBXProject "VoiceTweak" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7A30A47C1C85FCDC00D69266;
+			productRefGroup = 7A30A4861C85FCDC00D69266 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7A30A4841C85FCDC00D69266 /* VoiceTweak */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7A30A4831C85FCDC00D69266 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A30A4931C85FCDC00D69266 /* LaunchScreen.storyboard in Resources */,
+				7A30A4901C85FCDC00D69266 /* Assets.xcassets in Resources */,
+				7A30A48E1C85FCDC00D69266 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7A30A4811C85FCDC00D69266 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A30A48B1C85FCDC00D69266 /* ViewController.swift in Sources */,
+				7A30A4891C85FCDC00D69266 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7A30A48C1C85FCDC00D69266 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A30A48D1C85FCDC00D69266 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7A30A4911C85FCDC00D69266 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7A30A4921C85FCDC00D69266 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7A30A4951C85FCDC00D69266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7A30A4961C85FCDC00D69266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A30A4981C85FCDC00D69266 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceTweak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redravencomputing.VoiceTweak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7A30A4991C85FCDC00D69266 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = VoiceTweak/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.redravencomputing.VoiceTweak;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7A30A4801C85FCDC00D69266 /* Build configuration list for PBXProject "VoiceTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A30A4951C85FCDC00D69266 /* Debug */,
+				7A30A4961C85FCDC00D69266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A30A4971C85FCDC00D69266 /* Build configuration list for PBXNativeTarget "VoiceTweak" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7A30A4981C85FCDC00D69266 /* Debug */,
+				7A30A4991C85FCDC00D69266 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7A30A47D1C85FCDC00D69266 /* Project object */;
+}
