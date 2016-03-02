@@ -31,6 +31,9 @@
                             </label>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="UvM-E2-IrY">
                                 <rect key="frame" x="28" y="171" width="544" height="31"/>
+                                <connections>
+                                    <action selector="sliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="JZj-QX-udj"/>
+                                </connections>
                             </slider>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Loop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EAN-wr-Blt">
                                 <rect key="frame" x="30" y="221" width="39" height="21"/>
@@ -67,6 +70,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="ews-oc-qAD" secondAttribute="trailing" constant="10" id="yDL-34-1sx"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="speedLabel" destination="JS7-JA-SJf" id="OFs-uT-dAz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

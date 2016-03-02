@@ -11,7 +11,10 @@ import AVFoundation //import Audio Video Foundation
 
 class ViewController: UIViewController {
     
+    @IBOutlet weak var speedLabel: UILabel! //Connect the speed label
+    
     var audioPlayer : AVAudioPlayer? //Create an audio property
+    var rate : Float = 1.0 //set playback rate
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -27,11 +30,27 @@ class ViewController: UIViewController {
             let url = NSURL(fileURLWithPath: path!)
             //try to play the sound
             try self.audioPlayer = AVAudioPlayer(contentsOfURL: url)
+            //change the rate
+            self.audioPlayer!.enableRate = true
+            self.audioPlayer!.rate = rate
+            self.audioPlayer!.play()
         } catch {
             
         }
     }
     
+    //Connect the slider with code
+    @IBAction func sliderMoved(slider: UISlider) {
+        self.rate = 0.2
+        self.rate += (slider.value * 3.8)
+        
+        //Automatically update playback rate
+        self.audioPlayer!.rate = self.rate
+        
+        let prettyRate = String(format: "%.1f", self.rate)
+        self.speedLabel.text = "Speed x\(prettyRate)"
+        
+    }
     
 }
 
