@@ -12,6 +12,7 @@
 		7A30A48E1C85FCDC00D69266 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A48C1C85FCDC00D69266 /* Main.storyboard */; };
 		7A30A4901C85FCDC00D69266 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A48F1C85FCDC00D69266 /* Assets.xcassets */; };
 		7A30A4931C85FCDC00D69266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A4911C85FCDC00D69266 /* LaunchScreen.storyboard */; };
+		7A30A49B1C86B48100D69266 /* ExampleAudio.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 7A30A49A1C86B48100D69266 /* ExampleAudio.m4a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		7A30A48F1C85FCDC00D69266 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A30A4921C85FCDC00D69266 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7A30A4941C85FCDC00D69266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7A30A49A1C86B48100D69266 /* ExampleAudio.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = ExampleAudio.m4a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		7A30A4871C85FCDC00D69266 /* VoiceTweak */ = {
 			isa = PBXGroup;
 			children = (
+				7A30A49A1C86B48100D69266 /* ExampleAudio.m4a */,
 				7A30A4881C85FCDC00D69266 /* AppDelegate.swift */,
 				7A30A48A1C85FCDC00D69266 /* ViewController.swift */,
 				7A30A48C1C85FCDC00D69266 /* Main.storyboard */,
@@ -124,6 +127,7 @@
 			files = (
 				7A30A4931C85FCDC00D69266 /* LaunchScreen.storyboard in Resources */,
 				7A30A4901C85FCDC00D69266 /* Assets.xcassets in Resources */,
+				7A30A49B1C86B48100D69266 /* ExampleAudio.m4a in Resources */,
 				7A30A48E1C85FCDC00D69266 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
