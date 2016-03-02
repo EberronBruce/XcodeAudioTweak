@@ -22,6 +22,9 @@
                                 <rect key="frame" x="222" y="50" width="157" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
                                 <state key="normal" title="RECORD"/>
+                                <connections>
+                                    <action selector="recordTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Vs6-4A-Fmd"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speed 1.0x" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JS7-JA-SJf">
                                 <rect key="frame" x="30" y="130" width="84" height="21"/>
@@ -29,7 +32,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="UvM-E2-IrY">
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.21099999999999999" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="UvM-E2-IrY">
                                 <rect key="frame" x="28" y="171" width="544" height="31"/>
                                 <connections>
                                     <action selector="sliderMoved:" destination="BYZ-38-t0r" eventType="valueChanged" id="JZj-QX-udj"/>
@@ -41,9 +44,6 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ews-oc-qAD">
-                                <rect key="frame" x="521" y="221" width="51" height="31"/>
-                            </switch>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vrY-DA-LUa">
                                 <rect key="frame" x="254" y="262" width="93" height="60"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="40"/>
@@ -52,6 +52,9 @@
                                     <action selector="playTapped:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XSs-Vq-NHL"/>
                                 </connections>
                             </button>
+                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="ews-oc-qAD">
+                                <rect key="frame" x="521" y="221" width="51" height="31"/>
+                            </switch>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -71,6 +74,8 @@
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="loopSeitch" destination="ews-oc-qAD" id="Mye-1s-lEN"/>
+                        <outlet property="playButton" destination="vrY-DA-LUa" id="Y7G-HM-4e7"/>
                         <outlet property="speedLabel" destination="JS7-JA-SJf" id="OFs-uT-dAz"/>
                     </connections>
                 </viewController>
